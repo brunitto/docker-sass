@@ -1,12 +1,20 @@
 # DOCKER-SASS
 
-A simple Docker image to watch and compile Sass.
+A simple Docker image for Sass development (watch and compile).
 
 ## Usage
 
-Just run:
+Change the working directory to your project directory and execute:
 
     $ docker run --rm -v "$PWD/stylesheets:/src" brunitto/sass
 
-Change `$PWD/stylesheets` to your Sass project directory.
+Change `stylesheets` to your Sass files directory.
+
+## Issues
+
+[https://github.com/brunitto/docker-sass/issues](https://github.com/brunitto/docker-sass/issues)
+
+## Contribute
+
+[https://github.com/brunitto/docker-sass](https://github.com/brunitto/docker-sass)
 
